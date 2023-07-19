@@ -31,7 +31,7 @@ import sqlalchemy
 import pandas as pd
 
 load_dotenv()
-DATABASE_NAME = os.getenv("DATABASE_NAME")
+DATABASE_NAME = os.getenv("DATABASE_NAME", "database.db")
 
 
 def seed_db():

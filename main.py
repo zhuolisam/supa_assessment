@@ -54,7 +54,7 @@ if __name__ == "__main__":
         "asdasd",
     ]
 
-    # If you want to input raw data manualy, uncomment the following line and comment out df_raw = extract(). Note it's the same data from database.db
+    # If you want to input raw data manualy, uncomment the following line and comment out df_raw = extract().
     # df_raw = pd.DataFrame({"login_time": raw_data})
 
     # To pull raw data from database

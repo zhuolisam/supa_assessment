@@ -11,7 +11,7 @@ logging.basicConfig(format="[%(levelname)s]: %(message)s", level=logging.DEBUG)
 
 # Recover env variables
 load_dotenv()
-DATABASE_NAME = os.getenv("DATABASE_NAME")
+DATABASE_NAME = os.getenv("DATABASE_NAME", "database.db")
 
 
 def extract() -> List[str]:
