@@ -1,10 +1,13 @@
 ### How to Use
 Install dependencies - pip install -r requirements.txt
 
+Seed database - python seed.py
+
 Run main file - python main.py
 
 Run test - pytest tests/
 
+*Note: I have added some code in seed.py to seed the generated samples into a local sqlite database. 
 
 
 ### My Own Documentation 
