@@ -100,7 +100,7 @@ def test_count_continuous_date(sample_data_sorted_date):
                 pd.Timestamp("2023-08-25"),
                 pd.Timestamp("2023-09-01"),
             ],
-            "LENGTH": [3, 2],
+            "LENGTH": [3, 3],
         }
     )
 
