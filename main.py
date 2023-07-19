@@ -1,4 +1,5 @@
 import pandas as pd
+from tabulate import tabulate
 from utils.solution_pandas import extract, filter_date, sort_date, count_continuous_date
 
 if __name__ == "__main__":
@@ -62,5 +63,6 @@ if __name__ == "__main__":
     df = filter_date(df_raw)
     df = sort_date(df)
     df = count_continuous_date(df)
+
     print(f"Raw Data\n {df_raw}")
-    print(f"Cleaned Data\n {df}")
+    print(tabulate(df, headers="keys", tablefmt="grid"))
